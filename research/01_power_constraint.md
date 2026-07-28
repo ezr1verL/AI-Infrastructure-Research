@@ -4,7 +4,7 @@
 
 **Investment research question:** How should long-term investors evaluate capital allocation across the AI infrastructure value chain if power availability becomes a binding constraint on deployment?
 
-**Validation question:** Is the power-constraint thesis sufficiently supported by current evidence to justify further investment research?
+**Validation question:** Is the power-constraint hypothesis sufficiently supported by current evidence to justify further research?
 
 **Working conclusion:** Current evidence suggests that power availability should be treated as a credible investment constraint for AI infrastructure. However, the severity of that constraint is regional, scenario-dependent, and subject to meaningful execution uncertainty.
 
@@ -20,17 +20,17 @@
 
 ### Evidence Type
 
-**Forecast** — Forward-looking demand, capacity, or planning projections.
+**Forecast:** Future demand, capacity, or planning projections.
 
-**Historical Dataset** — Measured electricity, load, generation, or interconnection data.
+**Historical Dataset:** Measured electricity, load, generation, or interconnection data.
 
-**Grid Operator** — ISO/RTO planning, reliability, or operational publications.
+**Grid Operator:** Planning, reliability, or operating publications from regional grid organizations.
 
-**Policy / Government** — Public agency research or policy-related analysis.
+**Policy / Government:** Public agency research or policy analysis.
 
-**Counterargument** — Evidence highlighting uncertainty, downside scenarios, or methodological limitations.
+**Counterargument:** Evidence that shows uncertainty, downside cases, or limits in the method.
 
-**Industry Research** — Credible third-party research with transparent assumptions.
+**Industry Research:** Credible outside research with transparent assumptions.
 
 
 ## Evidence Tracker
@@ -61,7 +61,7 @@
 
 This module does not attempt to answer that question directly. Instead, it evaluates whether the underlying power-constraint thesis is sufficiently supported to justify further investment research.
 
-If the thesis is validated, subsequent modules examine where constraints emerge, why they differ across regions, which infrastructure segments are most exposed, and how those findings may influence long-term capital allocation.
+If the hypothesis remains credible, subsequent modules examine where constraints emerge, why they differ across regions, and which infrastructure segments warrant further economic analysis.
 
 ---
 
@@ -71,9 +71,9 @@ Across the available evidence, one pattern appears consistently. Electricity dem
 
 The strongest evidence comes from IEA, DOE/LBNL, EPRI, and NERC. Together, these sources suggest that U.S. data center electricity consumption is likely to increase materially over the remainder of the decade, although the magnitude varies across scenarios. Rather than relying on a single forecast, this framework treats multiple scenario ranges as inputs to the investment thesis.
 
-More importantly, the investment debate is gradually shifting away from electricity demand itself. The more relevant question is whether reliable power can be delivered where and when new AI infrastructure is being built.
+For this project, the next question is whether reliable power can be delivered where and when new AI infrastructure is being built. The repository does not establish that this is more important than every other deployment constraint.
 
-Regional differences are becoming increasingly important. The evidence consistently points to regional variation. PJM currently shows the strongest concentration of AI-related electricity demand, particularly in Northern Virginia. ERCOT exhibits rapid projected load growth but applies significant adjustments to requested large-load additions based on observed project realization. CAISO presents a useful comparison because its planning framework incorporates large-load growth differently and currently projects more moderate near-term demand.
+The reviewed evidence points to regional variation. Among the three regions selected for initial comparison, PJM shows concentrated data-center load growth, particularly in Northern Virginia. ERCOT exhibits rapid projected load growth but applies significant adjustments to requested large-load additions based on observed project realization. CAISO presents a useful comparison because its planning framework incorporates large-load growth differently and currently projects more moderate near-term demand in the cited source.
 
 Taken together, the evidence supports continued investigation into regional power constraints rather than a single national conclusion.
 
@@ -128,15 +128,15 @@ This framework shifts the research process from validating a macro thesis toward
 
 ---
 
-### 6. Final Thesis Validation Conclusion
+### 6. Initial Thesis Review Conclusion
 
-The evidence reviewed in this module supports one central conclusion: power availability should be treated as a credible investment constraint for AI infrastructure over the coming decade.
+The evidence reviewed in this module supports a narrower conclusion: power availability should be treated as a credible research variable for AI infrastructure over the coming decade.
 
 That does not mean every region faces the same level of risk, or that every announced project will be built. The evidence does suggest that power availability is becoming more important in determining where AI infrastructure can be deployed, how quickly projects can move forward, and which infrastructure assets may become relevant.
 
-The thesis is therefore validated, with one important qualification: power availability is a regional and scenario-dependent constraint, not a uniform national shortage.
+The hypothesis warrants continued research, with one important qualification: power availability is regional and scenario-dependent, not a uniform national shortage.
 
 With that premise established, the research can now shift from asking whether the constraint exists to examining where it is most significant, why it emerges, and how those differences may influence long-term capital allocation across the AI infrastructure value chain.
 
-Thesis validation does not establish an investment view. It establishes that power availability should be included as an explicit analytical variable in later capital allocation research.
+This initial review does not establish an investment view. It establishes only that power availability should be included as an explicit analytical variable in later research.
 

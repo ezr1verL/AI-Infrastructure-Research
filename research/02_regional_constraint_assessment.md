@@ -1,6 +1,6 @@
 # Module 2: Regional Constraint Mapping
 
-**Status:** Completed  
+**Status:** Initial regional comparison completed; utility- and project-level validation remains outstanding
 **Last Updated:** July 20, 2026
 
 ---
@@ -15,15 +15,15 @@ This module compares three of the most important regional power systems for AI i
 - **Electric Reliability Council of Texas (ERCOT)**, serving most of Texas
 - **California Independent System Operator (CAISO)**, serving most of California
 
-The evidence shows that AI infrastructure deployment is constrained primarily by **where electricity can be delivered**, not simply by how much electricity a region can generate.
+The evidence reviewed suggests that **local deliverability can constrain deployment even when regional generation is available**. The repository does not yet quantify how often deliverability, generation, equipment, permitting, or other factors are the decisive constraint for individual projects.
 
-Among the three regions, **PJM currently provides the strongest evidence of an active power constraint**, while **ERCOT represents the largest growth opportunity but also the greatest forecasting uncertainty**. **CAISO serves primarily as a planning and policy benchmark.**
+Among the three regions reviewed, **PJM has the clearest repository evidence of concentrated load growth and transmission relevance**. **ERCOT shows large requested-load growth but explicitly discounts requests for realization risk.** **CAISO provides a comparison case with a smaller quantified near-term data-center load forecast in the sources cited by Module 1.** These observations are not a complete ranking of investment attractiveness or grid severity.
 
 ---
 
 # Why This Module Matters
 
-Module 1 established that electricity is becoming a strategic bottleneck for AI infrastructure.
+Module 1 established that power availability is a credible variable for further research. It did not establish that electricity is the sole, primary, or longest-lasting bottleneck for AI infrastructure.
 
 The next question is:
 
@@ -31,7 +31,7 @@ The next question is:
 
 For investors, regional differences matter because companies exposed to one electricity market may face very different opportunities and risks than companies operating elsewhere.
 
-Understanding **where power constraints exist** is the foundation for identifying **who benefits from solving them**, which is the focus of Module 3.
+Understanding **where power constraints may exist** is a prerequisite for identifying ownership, cost responsibility, and potential economic exposure, which is the focus of Module 3.
 
 ---
 
@@ -62,7 +62,7 @@ Likewise, surplus generation at the regional level does not guarantee that a new
 
 PJM coordinates the transmission grid and wholesale electricity market across the Mid-Atlantic and parts of the Midwest.
 
-Its territory includes **Northern Virginia**, the world's largest concentration of commercial data centers.
+Its territory includes **Northern Virginia**, a major concentration of commercial data centers. Module 1 documents rapid commercial-load growth in Virginia but does not independently establish a global market ranking.
 
 ---
 
@@ -119,9 +119,9 @@ In other words, the key question is not whether electricity exists somewhere in 
 
 ### Background
 
-PJM contains the largest existing concentration of AI-related electricity demand in the United States.
+PJM contains a large existing concentration of data-center electricity demand, particularly in Northern Virginia.
 
-Northern Virginia has become the world's leading data-center market, placing increasing pressure on regional transmission infrastructure and local utilities.
+Repository sources show rapid commercial-load growth and higher peak-demand forecasts in the Dominion zone. The current evidence is regional and does not isolate AI workloads from all other data-center demand.
 
 ### Evidence
 
@@ -134,13 +134,13 @@ Previous research identified:
 
 ### Interpretation
 
-The primary constraint is **electricity delivery**, not total electricity production.
+The evidence suggests that **electricity delivery may be a material constraint** in parts of PJM; it does not establish that delivery is the primary constraint for every project.
 
-Transmission upgrades, substations, and utility infrastructure are becoming increasingly important for bringing new AI facilities online.
+Transmission upgrades, substations, and utility infrastructure warrant project-level review when assessing whether new facilities can receive service on schedule.
 
-### Investment Implication
+### Research Relevance
 
-Companies controlling existing powered sites, transmission assets, regulated utilities, or critical infrastructure in Northern Virginia may benefit from continued AI expansion.
+Powered sites, transmission assets, regulated utilities, and related infrastructure are areas for further research. The repository has not yet completed asset ownership, valuation, regulatory recovery, or company-level analysis.
 
 ---
 
@@ -148,7 +148,7 @@ Companies controlling existing powered sites, transmission assets, regulated uti
 
 ### Background
 
-Texas has received one of the largest volumes of proposed large-load applications in North America.
+ERCOT reports a large volume of requested large-load additions. The repository does not contain a complete North American dataset for ranking request volumes.
 
 ### Evidence
 
@@ -161,13 +161,13 @@ ERCOT adjusts future demand forecasts to account for:
 
 ### Interpretation
 
-Headline demand figures significantly overstate likely electricity consumption.
+ERCOT's methodology materially reduces requested large-load additions, indicating that unadjusted requests should not be treated as expected consumption.
 
-Project quality matters more than project quantity.
+Project maturity, ramp timing, and observed utilization are relevant to interpreting the request pipeline.
 
-### Investment Implication
+### Research Relevance
 
-The best opportunities may come from developers capable of converting proposed projects into operating facilities rather than from every announced project.
+The repository does not yet support a developer-level investment conclusion. A next step is to test which projects have credible schedules, power arrangements, financing, and customer commitments.
 
 ---
 
@@ -183,45 +183,45 @@ CAISO incorporates confidence levels, utilization assumptions, and utility appli
 
 ### Interpretation
 
-CAISO currently provides stronger evidence of planning sophistication than immediate infrastructure scarcity.
+The cited CAISO materials document a formal large-load planning process. The repository does not compare planning quality across operators or establish a general absence of local scarcity.
 
-### Investment Implication
+### Research Relevance
 
-CAISO serves primarily as a benchmark for best practices in long-term electricity planning.
+CAISO serves as a comparison case for how large-load forecasts are incorporated into planning.
 
 ---
 
 # Cross-Regional Comparison
 
-| Region | Primary Characteristic | Main Constraint | Investment Focus |
+| Region | Repository observation | Unresolved constraint question | Next research focus |
 |---|---|---|---|
-| PJM | Existing AI demand | Transmission and utility readiness | Infrastructure owners |
-| ERCOT | Rapid proposed growth | Forecast uncertainty | High-quality project developers |
-| CAISO | Planning framework | Long-term integration | Policy and planning trends |
+| PJM | Concentrated data-center load growth and transmission relevance | Which zones and utilities face binding deliverability limits? | Utility- and zone-level evidence |
+| ERCOT | Large requested-load pipeline with explicit forecast haircuts | What share of requested load is likely to become operational? | Project maturity and flexible-load treatment |
+| CAISO | Smaller quantified near-term data-center growth in cited sources | Are constraints concentrated within particular utility territories? | Local applications and transmission planning |
 
 ---
 
 # Key Findings
 
-1. AI power constraints are regional rather than national.
+1. The reviewed evidence varies materially by region; national aggregates are insufficient for site-level conclusions.
 
-2. Transmission infrastructure is often more important than generation capacity.
+2. Transmission and local deliverability can matter even when aggregate generation appears sufficient.
 
-3. Utility readiness can determine whether projects are built on schedule.
+3. Utility readiness may affect project schedules, but the repository lacks project-level service data.
 
 4. Requested electricity demand should not be treated as operational demand.
 
-5. PJM currently provides the strongest evidence of deployment constraints.
+5. Of the three regions reviewed, PJM has the clearest repository evidence of concentrated load growth and transmission relevance.
 
-6. ERCOT offers the largest potential growth but also the greatest forecasting uncertainty.
+6. ERCOT's requested-load pipeline is large, but its own methodology demonstrates substantial realization uncertainty.
 
 ---
 
-# Investment Implications
+# Research Implications
 
-The regional analysis suggests that investors should focus less on aggregate electricity statistics and more on companies that control access to reliable power.
+The regional analysis suggests that aggregate electricity statistics are insufficient for investment research. Local deliverability, utility processes, and project maturity require additional work.
 
-This includes regulated utilities, transmission owners, powered land, advanced interconnection positions, and developers with credible power agreements.
+Regulated utilities, transmission owners, powered land, interconnection positions, and project developers are research categories, not recommendations. The repository has not yet assessed ownership, valuation, contract quality, regulatory treatment, or expected returns.
 
 ---
 
@@ -242,4 +242,4 @@ Future research should incorporate:
 
 Module 3 shifts from **where power constraints exist** to **who owns or controls the infrastructure needed to solve them**.
 
-The next module will map regulated utilities, transmission companies, generation owners, equipment suppliers, and data-center developers that may benefit from AI-driven electricity demand.
+The next module is intended to map regulated utilities, transmission companies, generation owners, equipment suppliers, and data-center developers, then test ownership, cost recovery, competition, and valuation before drawing economic conclusions.

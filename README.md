@@ -1,8 +1,16 @@
 # AI Infrastructure Capital Allocation Framework
 
+## Core Research Outputs
+
+- [Executive Summary](Executive_Summary.md): A concise statement of the current evidence, provisional thesis, risks, and open questions.
+- [Investment Memorandum](Investment_Memorandum.md): A detailed, source linked synthesis of the two completed research modules, including limitations and a monitoring framework.
+- [Research Journal](Research_Journal.md): A retrospective milestone record reconstructed from verifiable repository history rather than an invented daily narrative.
+
+---
+
 ## Overview
 
-Artificial intelligence is creating one of the largest infrastructure investment cycles in decades. While advances in computing hardware continue to improve model capabilities, the ability to deploy new AI infrastructure increasingly depends on access to reliable electricity.
+AI infrastructure development is increasing attention on the electricity required to operate data centers. The timing and location of deployment may depend partly on access to reliable power, alongside compute availability, construction, permitting, networking, water, and other inputs.
 
 This repository develops an **evidence-weighted research framework** for evaluating how power availability may influence long-term capital allocation across the AI infrastructure value chain.
 
@@ -22,7 +30,7 @@ The objective is **not** to provide stock recommendations. Instead, the project 
 
 ## Research Question
 
-> **How should long-term capital allocate across the AI infrastructure value chain if power availability becomes the primary constraint on AI deployment?**
+> **How should investors evaluate the AI infrastructure value chain if power availability becomes a material, region-specific deployment constraint?**
 
 ---
 
@@ -80,7 +88,7 @@ Ongoing Monitoring
 
 #### Module 4: Value Chain Analysis
 
-**Question:** Which parts of the AI power value chain benefit or face greater pressure?
+**Question:** Which parts of the AI power value chain are exposed, and under what conditions could that exposure affect economics?
 
 **Objective:** Connect the identified constraints to infrastructure segments including electricity generation, transmission, distribution, grid equipment, utilities, and power procurement.
 
@@ -108,8 +116,8 @@ Ongoing Monitoring
 
 | Module | Status |
 |---|---|
-| Module 1: Thesis Validation | ✅ Completed |
-| Module 2: Regional Constraint Mapping | ✅ Completed |
+| Module 1: Initial Thesis Validation | Completed as an initial evidence review |
+| Module 2: Regional Constraint Mapping | Initial comparison completed; subregional validation outstanding |
 | Module 3: Constraint Ownership | ⏳ Planned |
 | Module 4: Value Chain Analysis | ⏳ Planned |
 | Module 5: Capital Allocation Framework | ⏳ Planned |
@@ -136,7 +144,7 @@ Where possible, conclusions are supported by publicly available primary sources,
 
 ## Current Focus
 
-The thesis validation phase has been completed, and the initial regional analysis is now finished.
+The initial thesis-validation review and three-region comparison are complete. They support continued research but do not establish company recommendations, relative returns, or a definitive bottleneck ranking.
 
 Current research is transitioning from identifying **where power constraints exist** to determining **who owns or controls the infrastructure affected by those constraints**.
 
@@ -149,13 +157,13 @@ The next module examines utilities, transmission owners, generation companies, i
 ```text
 README.md
 
-Module 1 — Thesis Validation
-Module 2 — Regional Constraint Mapping
-Module 3 — Constraint Ownership
-Module 4 — Value Chain Analysis
-Module 5 — Capital Allocation Framework
-Module 6 — Public Equity Mapping
-Module 7 — Watchlist and Monitoring
+Module 1: Thesis Validation
+Module 2: Regional Constraint Mapping
+Module 3: Constraint Ownership
+Module 4: Value Chain Analysis
+Module 5: Capital Allocation Framework
+Module 6: Public Equity Mapping
+Module 7: Watchlist and Monitoring
 
 Appendix
     Methodology
